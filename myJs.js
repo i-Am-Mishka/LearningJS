@@ -15,7 +15,10 @@ console.log(2%2)
 console.log(3%2)
 console.log(false == 0)
 console.log(false === 0)
-console.log(true == 1)
+console.log(true == 2)
+console.log(2 === 1)
+console.log(2 == 2)
+console.log(false == true)
 
 const arr2 = [-1, -5 , 0, 3, 4, 1.4, -10]
 
@@ -49,3 +52,15 @@ const rose = () => {
 }
 rose()
 
+
+// однорукий бандит!
+
+const bandit = () =>{
+    let random = Math.floor(Math.random() * 10)
+    return  random
+}
+
+console.log(bandit())
+console.log(bandit())
+console.log(bandit())
+console.log(bandit())
