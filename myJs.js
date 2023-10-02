@@ -64,3 +64,6 @@ console.log(bandit())
 console.log(bandit())
 console.log(bandit())
 console.log(bandit())
+
+const pes = ["два", "три", "пять"]
+const pen = [6,8,4,9,3]
