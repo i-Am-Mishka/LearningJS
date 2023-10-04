@@ -67,3 +67,25 @@ console.log(bandit())
 
 const pes = ["два", "три", "пять"]
 const pen = [6,8,4,9,3]
+const per = ["один", "синий", 7, 
+777, null, true, false]
+
+console.log (pes)
+console.log (pen)
+console.log (per)
+
+const string = (a,b,c) =>{
+    // console.log(a)
+    let jhgf = a.join(", ")
+    let red = b.join(", ")
+    let acc = c.join(", ")
+    // return jhgf
+    console.log(jhgf)
+    console.log(red)
+    console.log(acc)
+
+    
+
+}
+string(pes, pen, per)
+
