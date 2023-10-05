@@ -89,3 +89,18 @@ const string = (a,b,c) =>{
 }
 string(pes, pen, per)
 
+let str = 'one trhee five four seven ten'
+
+const trasform = (str) => {
+    let asd = str.split(" ")
+    let result = []
+    for(let i = 0; i < asd.length; i++ ){
+        console.log(asd[i].length)
+        if(asd[i].length > result.length) {
+            result[0] += asd[i]
+        }
+    }
+    return result
+}
+
+console.log(trasform(str))
